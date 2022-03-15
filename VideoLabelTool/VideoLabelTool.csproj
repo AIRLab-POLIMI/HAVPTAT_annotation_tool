@@ -130,8 +130,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="bin\Debug\VideoLabelTool.exe.config" />
-    <None Include="bin\Release\VideoLabelTool.exe.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -147,60 +145,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Emgu.CV.Platform.NetFramework.dll" />
-    <Content Include="bin\Debug\Emgu.CV.Platform.NetFramework.xml" />
-    <Content Include="bin\Debug\Emgu.CV.Platform.NetStandard.dll" />
-    <Content Include="bin\Debug\Emgu.CV.Platform.NetStandard.xml" />
-    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
-    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
-    <Content Include="bin\Debug\VideoLabelTool.exe" />
-    <Content Include="bin\Debug\VideoLabelTool.pdb" />
-    <Content Include="bin\Debug\x64\concrt140.dll" />
-    <Content Include="bin\Debug\x64\cvextern.dll" />
-    <Content Include="bin\Debug\x64\msvcp140.dll" />
-    <Content Include="bin\Debug\x64\msvcp140_1.dll" />
-    <Content Include="bin\Debug\x64\msvcp140_2.dll" />
-    <Content Include="bin\Debug\x64\msvcp140_codecvt_ids.dll" />
-    <Content Include="bin\Debug\x64\opencv_videoio_ffmpeg430_64.dll" />
-    <Content Include="bin\Debug\x64\vcruntime140.dll" />
-    <Content Include="bin\Debug\x64\vcruntime140_1.dll" />
-    <Content Include="bin\Debug\x86\concrt140.dll" />
-    <Content Include="bin\Debug\x86\cvextern.dll" />
-    <Content Include="bin\Debug\x86\msvcp140.dll" />
-    <Content Include="bin\Debug\x86\msvcp140_1.dll" />
-    <Content Include="bin\Debug\x86\msvcp140_2.dll" />
-    <Content Include="bin\Debug\x86\msvcp140_codecvt_ids.dll" />
-    <Content Include="bin\Debug\x86\opencv_videoio_ffmpeg430.dll" />
-    <Content Include="bin\Debug\x86\vcruntime140.dll" />
-    <Content Include="bin\Debug\Xabe.FFmpeg.dll" />
-    <Content Include="bin\Debug\Xabe.FFmpeg.xml" />
-    <Content Include="bin\Release\Emgu.CV.Platform.NetFramework.dll" />
-    <Content Include="bin\Release\Emgu.CV.Platform.NetFramework.xml" />
-    <Content Include="bin\Release\Emgu.CV.Platform.NetStandard.dll" />
-    <Content Include="bin\Release\Emgu.CV.Platform.NetStandard.xml" />
-    <Content Include="bin\Release\Newtonsoft.Json.dll" />
-    <Content Include="bin\Release\Newtonsoft.Json.xml" />
-    <Content Include="bin\Release\VideoLabelTool.exe" />
-    <Content Include="bin\Release\VideoLabelTool.pdb" />
-    <Content Include="bin\Release\x64\concrt140.dll" />
-    <Content Include="bin\Release\x64\cvextern.dll" />
-    <Content Include="bin\Release\x64\msvcp140.dll" />
-    <Content Include="bin\Release\x64\msvcp140_1.dll" />
-    <Content Include="bin\Release\x64\msvcp140_2.dll" />
-    <Content Include="bin\Release\x64\msvcp140_codecvt_ids.dll" />
-    <Content Include="bin\Release\x64\opencv_videoio_ffmpeg430_64.dll" />
-    <Content Include="bin\Release\x64\vcruntime140.dll" />
-    <Content Include="bin\Release\x64\vcruntime140_1.dll" />
-    <Content Include="bin\Release\x86\concrt140.dll" />
-    <Content Include="bin\Release\x86\cvextern.dll" />
-    <Content Include="bin\Release\x86\msvcp140.dll" />
-    <Content Include="bin\Release\x86\msvcp140_1.dll" />
-    <Content Include="bin\Release\x86\msvcp140_2.dll" />
-    <Content Include="bin\Release\x86\msvcp140_codecvt_ids.dll" />
-    <Content Include="bin\Release\x86\opencv_videoio_ffmpeg430.dll" />
-    <Content Include="bin\Release\x86\vcruntime140.dll" />
-    <Content Include="bin\Release\Xabe.FFmpeg.dll" />
-    <Content Include="bin\Release\Xabe.FFmpeg.xml" />
     <Content Include="input\results.txt" />
     <Content Include="input\walkingDrinking.mp4" />
   </ItemGroup>
@@ -217,7 +161,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Debug %28Console%29\" />
     <Folder Include="output\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
