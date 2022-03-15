@@ -88,7 +88,7 @@ Create two folders:
 Clone the project to your file system.
 
 ```bash
-git clone TODO airlab github
+git clone https://github.com/AIRLab-POLIMI/HAVPTAT_annotation_tool.git
 ```
 
 If you want to only use HAVPTAT, go to the path and launch directly the application: `.\VideoLabelTool\bin\Release\VideoLabelTool.exeVideoLabelTool.exe`
