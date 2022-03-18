@@ -164,7 +164,7 @@ Please cite this work if you find it useful:.
 
     @article{,
         title = {},
-        journal = {Software Impacts},
+        journal = {},
         volume = {},
         pages = {},
         year = {2022},
